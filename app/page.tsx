@@ -41,8 +41,6 @@ export default function SpotifyListenerStatsPage() {
   return (
     <div className="min-h-screen bg-black text-white">
       <Header
-        mobileMenuOpen={mobileMenuOpen}
-        onToggleMobileMenu={() => setMobileMenuOpen((v) => !v)}
         onLogin={handleSpotifyLogin}
       />
 
