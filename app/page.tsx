@@ -411,17 +411,17 @@ export default function SpotifyListenerStatsPage() {
           <h2 className="mb-12 text-center text-3xl font-bold md:text-5xl">Aperçu interactif</h2>
 
           <div className="mx-auto grid max-w-6xl gap-8 md:grid-cols-2">
-            <Card className="border-cyan-500/30 bg-gradient-to-br from-cyan-900/20 to-blue-900/20 p-8 backdrop-blur-sm">
-              <Clock className="mb-4 h-12 w-12 text-cyan-400" />
+            <Card className="border-cyan-500/30 bg-[#1DB954]/20 p-8 backdrop-blur-sm">
+              <Clock className="mb-4 h-12 w-12 text-[#1DB954]" />
               <p className="mb-2 text-sm text-gray-400">Minutes d'écoute totales</p>
-              <p className="text-5xl font-bold text-cyan-400">{listeningMinutes.toLocaleString()}</p>
+              <p className="text-5xl font-bold text-[#1DB954]">{listeningMinutes.toLocaleString()}</p>
               <p className="mt-2 text-sm text-gray-300">Ce mois-ci</p>
             </Card>
 
-            <Card className="border-orange-500/30 bg-gradient-to-br from-orange-900/20 to-red-900/20 p-8 backdrop-blur-sm">
-              <Music className="mb-4 h-12 w-12 text-orange-400" />
+            <Card className="border-orange-500/30 bg-[#1DB954]/20 p-8 backdrop-blur-sm">
+              <Music className="mb-4 h-12 w-12 text-[#1DB954]" />
               <p className="mb-2 text-sm text-gray-400">Artistes découverts</p>
-              <p className="text-5xl font-bold text-orange-400">{topArtists}</p>
+              <p className="text-5xl font-bold text-[#1DB954]">{topArtists}</p>
               <p className="mt-2 text-sm text-gray-300">Cette année</p>
             </Card>
           </div>
